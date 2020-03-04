@@ -26,6 +26,8 @@ const keyboard = JSON.stringify({
         }],
     ]});
 
+console.log('Hello')
+
 (function(){
     api('messages.getConversationMembers', {
         v:5.103,
