@@ -9,8 +9,8 @@ const {TOKEN, GROUP, CHAT, CHAT_TEST, PHOTO} = require('./config');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
-const messages = [', поздравляем тебя с Днём Рождения!',
-    ', у тебя ДР. Это так круто!'];
+const messages = [', поздравляем тебя с Днём Рождения! От лица отряда желаем успешного прохождения Школы, крутой прокачки и послушных детей на сменах!'];
+
 const keyboard = JSON.stringify({
     one_time: true,
     // inline: true,
@@ -30,7 +30,7 @@ const keyboard = JSON.stringify({
     api('messages.getConversationMembers', {
         v:5.103,
         access_token: TOKEN,
-        peer_id: CHAT,
+        peer_id: CHAT_TEST,
         fields: 'bdate',
         group_id: GROUP,
     }).then(res => {
@@ -43,7 +43,7 @@ const keyboard = JSON.stringify({
             // console.log(res.response);
             let date = new Date(res.response * 1000);
 
-            Users[0].bdate = '4.3'; // удалить
+            // Users[0].bdate = '4.3'; // удалить
             let users_with_bday = [];
             Users.forEach(user => {
                 if(user.bdate !== undefined){
@@ -78,10 +78,9 @@ const keyboard = JSON.stringify({
                 // keyboard: keyboard,
                 attachment: PHOTO,
             }).then(console.log)
-
         });
     });
 
-setTimeout(arguments.callee, 60000);
+setTimeout(arguments.callee, 86400000);
 
 })();
