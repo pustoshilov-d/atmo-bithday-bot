@@ -1,0 +1,26 @@
+{
+  "ignore": ["node_modules"],
+  "env": {
+    "NODE_ENV":"development",
+    "PORT": 3000,
+    "CONFIRMATION": "7580db10",
+
+    "GROUP": 190214743,
+    "TOKEN_ATMO": "d8937fc9804c7bc900bdf1726fc803f97095365ce5d67aaf3104dc35f68f60c0aadd37349e64df69cd8dd",
+    "TOKEN": "281583ef79ec6c7d45a116da998a813a6ec83f8e75913b87d93956fdc9b5fc536b4443cf703f853f5cda6",
+    "CHAT": 2000000002,
+    "CHAT_TEST": 2000000003,
+    "PHOTO": "photo52167654_457249444",
+
+    "USER": "postgres",
+
+    "DATABASE_URL": "postgres://epceoialxeuhiq:b047274c4be4cf36ad688ace5c0981bb096ee8dcdbcd5fb12d2d2d926a1297e9@ec2-54-247-96-169.eu-west-1.compute.amazonaws.com:5432/dachskrs8tgh7o",
+    "HOST": "127.0.0.1",
+    "PORT_DB": "5432",
+    "DATABASE": "Speak_and_Solve",
+    "PSY_ID": "52167654",
+    "PASSWORD": "12345678"
+  },
+  "ext": ".js,.json",
+  "watch": ",/"
+}
