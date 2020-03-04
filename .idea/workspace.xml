@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2d687e6-077c-4094-aaf8-14284839de65" name="Default Changelist" comment="update">
+    <list default="true" id="d2d687e6-077c-4094-aaf8-14284839de65" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../SAS/.idea/sas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../SAS/.idea/sas.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SAS/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../SAS/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodemon.json" beforeDir="false" afterPath="$PROJECT_DIR$/nodemon.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +50,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
     <property name="ts.external.directory.path" value="D:\Programing\WebStorm 2019.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
@@ -97,7 +96,7 @@
       <updated>1583190591562</updated>
       <workItem from="1583190594559" duration="5140000" />
       <workItem from="1583282646964" duration="11074000" />
-      <workItem from="1583322055520" duration="1684000" />
+      <workItem from="1583322055520" duration="2192000" />
     </task>
     <servers />
   </component>
@@ -117,10 +116,10 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="414" y="217" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1583283255967" />
-    <state x="581" y="157" key="CommitChangelistDialog2" timestamp="1583323708862">
+    <state x="581" y="157" key="CommitChangelistDialog2" timestamp="1583323765848">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="581" y="157" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1583323708862" />
+    <state x="581" y="157" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1583323765848" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1583293794890">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
@@ -137,6 +136,10 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1583293794890" />
+    <state x="463" y="204" key="SettingsEditor" timestamp="1583324258471">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="463" y="204" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1583324258471" />
     <state x="771" y="478" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583293596114">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
