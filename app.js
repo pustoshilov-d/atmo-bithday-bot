@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const app = express();
 const api = require('vk-easy');
 
-const {TOKEN, GROUP, CHAT, CHAT_TEST, PHOTO, TIME_OUT} = require('./config');
+const {TOKEN, GROUP, CHAT, CHAT_TEST, PHOTO, TIME_OUT, TEST_FLAG} = require('./config');
 console.log('Hello');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
@@ -31,7 +31,7 @@ const keyboard = JSON.stringify({
     api('messages.getConversationMembers', {
         v:5.103,
         access_token: TOKEN,
-        peer_id: CHAT_TEST,
+        peer_id: CHAT,
         fields: 'bdate',
         group_id: GROUP,
     }).then(res => {
@@ -45,7 +45,7 @@ const keyboard = JSON.stringify({
             let date = new Date(res.response * 1000);
             console.log('Сегодня ', date.getDay()+1, '.', date.getMonth()+1);
 
-            Users[0].bdate = '5.3'; // удалить
+            if (TEST_FLAG === 1) {Users[0].bdate = toString(date.getDay()+1)+'.'+ toString(date.getMonth()+1)} // удалить
             let users_with_bday = [];
             Users.forEach(user => {
                 if(user.bdate !== undefined){

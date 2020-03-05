@@ -9,7 +9,8 @@
     "CHAT": 2000000002,
     "CHAT_TEST": 2000000003,
     "PHOTO": "photo-190214743_457239250",
-    "TIME_OUT": 86400000
+    "TIME_OUT": 86400000,
+    "TEST_FLAG": 1
   },
   "ext": ".js,.json",
   "watch": ",/"
