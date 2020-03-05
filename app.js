@@ -44,9 +44,8 @@ const keyboard = JSON.stringify({
             // console.log(res.response);
             let date = new Date(res.response * 1000);
             console.log('Сегодня ', date.getDay()+1, '.', date.getMonth()+1);
-            console.log(TEST_FLAG)
-            if (TEST_FLAG === 1) {
-                Users[0].bdate = toString(date.getDay()+1)+'.'+ toString(date.getMonth()+1);
+            if (TEST_FLAG === '1') {
+                Users[0].bdate = (date.getDay()+1).toString()+'.'+ (date.getMonth()+1).toString();
                 console.log('Test: ', Users[0].bdate)} // удалить
             let users_with_bday = [];
             Users.forEach(user => {
