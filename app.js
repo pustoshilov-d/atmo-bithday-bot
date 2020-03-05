@@ -45,17 +45,14 @@ const keyboard = JSON.stringify({
             let date = new Date(res.response * 1000);
             console.log('Сегодня ', date.getDay()+1, '.', date.getMonth()+1);
 
-            // Users[0].bdate = '4.3'; // удалить
+            Users[0].bdate = '5.3'; // удалить
             let users_with_bday = [];
             Users.forEach(user => {
                 if(user.bdate !== undefined){
-                    // console.log(user.bdate.split('.'), '@id'+user.id+'('+user.first_name+')');
 
                     if (date.getDay()+1=== parseInt(user.bdate.split('.')[0]) && date.getMonth()+1 === parseInt(user.bdate.split('.')[1])) {
                         users_with_bday.push('@id'+user.id+'('+user.first_name+')');
-                        // console.log('True')
                     }
-                    // else{console.log('False')}
 
                     let text = '';
 
