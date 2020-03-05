@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const app = express();
 const api = require('vk-easy');
 
-const {TOKEN, GROUP, CHAT, CHAT_TEST, PHOTO} = require('./config');
+const {TOKEN, GROUP, CHAT, CHAT_TEST, PHOTO, TIME_OUT} = require('./config');
 console.log('Hello');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
@@ -87,6 +87,6 @@ const keyboard = JSON.stringify({
         });
     });
 
-setTimeout(arguments.callee, 86400000);
+setTimeout(arguments.callee, TIME_OUT);
 
 })();

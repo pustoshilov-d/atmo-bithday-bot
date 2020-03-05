@@ -8,7 +8,8 @@
     "TOKEN": "281583ef79ec6c7d45a116da998a813a6ec83f8e75913b87d93956fdc9b5fc536b4443cf703f853f5cda6",
     "CHAT": 2000000002,
     "CHAT_TEST": 2000000003,
-    "PHOTO": "photo-190214743_457239250"
+    "PHOTO": "photo-190214743_457239250",
+    "TIME_OUT": 86400000
   },
   "ext": ".js,.json",
   "watch": ",/"
