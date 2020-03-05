@@ -5,7 +5,7 @@ const api = require('vk-easy');
 
 const {PORT, CONFIRMATION, USER} = require('./config');
 const {TOKEN, GROUP, CHAT, CHAT_TEST, PHOTO} = require('./config');
-
+console.log('Hello');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
@@ -26,7 +26,7 @@ const keyboard = JSON.stringify({
         }],
     ]});
 
-console.log('Hello')
+
 
 (function(){
     api('messages.getConversationMembers', {
@@ -63,23 +63,28 @@ console.log('Hello')
             });
             console.log(users_with_bday);
 
-            let text = users_with_bday.join(', ').replace(/,\s([^,]+)$/, ' и $1') ;
-            text += messages[Math.floor((Math.random()*messages.length))];
-            if (users_with_bday.length > 1) {
-                text = text.replace('тебя', 'вас').replace('тебе', 'вам');
-            }
-            console.log(text);
+            if (users_with_bday.length > 0){
+                let text = users_with_bday.join(', ').replace(/,\s([^,]+)$/, ' и $1') ;
+                text += messages[Math.floor((Math.random()*messages.length))];
+                if (users_with_bday.length > 1) {
+                    text = text.replace('тебя', 'вас').replace('тебе', 'вам');
+                }
+                console.log(text);
 
-            api('messages.send', {
-                v:5.103,
-                access_token: TOKEN,
-                group_id: GROUP,
-                peer_id: CHAT_TEST,
-                random_id:  Math.floor(Math.random()*999999999),
-                message: text,
-                // keyboard: keyboard,
-                attachment: PHOTO,
-            }).then(console.log)
+                api('messages.send', {
+                    v:5.103,
+                    access_token: TOKEN,
+                    group_id: GROUP,
+                    peer_id: CHAT_TEST,
+                    random_id:  Math.floor(Math.random()*999999999),
+                    message: '.',
+                    keyboard: keyboard,
+                    attachment: PHOTO,
+                }).then(console.log)
+            }
+            else {
+                console.log('Нет ДР сегодня')
+            }
         });
     });
 
