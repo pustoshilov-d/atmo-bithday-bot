@@ -74,7 +74,7 @@ const keyboard = JSON.stringify({
                     group_id: GROUP,
                     peer_id: CHAT_TEST,
                     random_id:  Math.floor(Math.random()*999999999),
-                    message: '.',
+                    message: text,
                     keyboard: keyboard,
                     attachment: PHOTO,
                 }).then(console.log)
