@@ -43,6 +43,7 @@ const keyboard = JSON.stringify({
         }).then(res => {
             // console.log(res.response);
             let date = new Date(res.response * 1000);
+            console.log('Сегодня ', date.getDay()+1, '.', date.getMonth()+1);
 
             // Users[0].bdate = '4.3'; // удалить
             let users_with_bday = [];
