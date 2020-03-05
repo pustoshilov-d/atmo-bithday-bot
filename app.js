@@ -8,7 +8,7 @@ console.log('Hello');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
-const messages = [', поздравляем тебя с Днём Рождения! От лица отряда желаем успешного прохождения Школы, крутой прокачки и послушных детей на сменах!'];
+const messages = [', с твоим Днём! Пусть этот день будет станет для тебя самым счастливым в году. Желаем эффективного саморазвития и поиска себя!'];
 
 const keyboard = JSON.stringify({
     one_time: false,
@@ -24,7 +24,6 @@ const keyboard = JSON.stringify({
             // "color": "secondary"
         }],
     ]});
-
 
 api('messages.getConversationMembers', {
     v:5.103,
@@ -78,6 +77,7 @@ api('messages.getConversationMembers', {
                 attachment: PHOTO,
             }).then(console.log)
         }
+
         else {
             console.log('Нет ДР сегодня')
         }

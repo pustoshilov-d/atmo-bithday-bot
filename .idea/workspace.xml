@@ -108,7 +108,7 @@
       <workItem from="1583190594559" duration="5140000" />
       <workItem from="1583282646964" duration="11074000" />
       <workItem from="1583322055520" duration="5258000" />
-      <workItem from="1583415268715" duration="8255000" />
+      <workItem from="1583415268715" duration="9535000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1583326453396</created>
@@ -187,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583448974628</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="delete timeout">
+      <created>1583451388609</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1583451388609</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +219,8 @@
     <MESSAGE value="update" />
     <MESSAGE value="global timeout" />
     <MESSAGE value="global TEST_FLAG" />
-    <option name="LAST_COMMIT_MESSAGE" value="global TEST_FLAG" />
+    <MESSAGE value="delete timeout" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete timeout" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="220" key="#Inspections" timestamp="1583284012819">
