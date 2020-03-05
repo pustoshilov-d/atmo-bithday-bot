@@ -3,7 +3,6 @@ const bodyParser = require('body-parser');
 const app = express();
 const api = require('vk-easy');
 
-const {PORT, CONFIRMATION, USER} = require('./config');
 const {TOKEN, GROUP, CHAT, CHAT_TEST, PHOTO} = require('./config');
 console.log('Hello');
 app.use(bodyParser.urlencoded({extended: true}));
@@ -12,7 +11,7 @@ app.use(bodyParser.json());
 const messages = [', поздравляем тебя с Днём Рождения! От лица отряда желаем успешного прохождения Школы, крутой прокачки и послушных детей на сменах!'];
 
 const keyboard = JSON.stringify({
-    one_time: true,
+    one_time: false,
     // inline: true,
     buttons: [
         [{
