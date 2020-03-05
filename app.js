@@ -8,7 +8,7 @@ console.log('Hello');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
-const messages = [', с твоим Днём! Пусть этот день будет станет для тебя самым счастливым в году. Желаем эффективного саморазвития и поиска себя!'];
+const messages = [', с твоим Днём! Пусть этот день станет для тебя самым счастливым в году. Желаем эффективного саморазвития и поиска себя!'];
 
 const keyboard = JSON.stringify({
     one_time: false,
@@ -62,7 +62,7 @@ api('messages.getConversationMembers', {
             let text = users_with_bday.join(', ').replace(/,\s([^,]+)$/, ' и $1') ;
             text += messages[Math.floor((Math.random()*messages.length))];
             if (users_with_bday.length > 1) {
-                text = text.replace('тебя', 'вас').replace('тебе', 'вам');
+                text = text.replace('тебя', 'вас').replace('тебе', 'вам').replace('твоим', 'вашим');
             }
             console.log(text);
 
