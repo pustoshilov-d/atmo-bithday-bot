@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d2d687e6-077c-4094-aaf8-14284839de65" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/checkDaysDB.js" beforeDir="false" afterPath="$PROJECT_DIR$/db/checkDaysDB.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +117,7 @@
       <workItem from="1583190594559" duration="5140000" />
       <workItem from="1583282646964" duration="11074000" />
       <workItem from="1583322055520" duration="5258000" />
-      <workItem from="1583415268715" duration="14459000" />
+      <workItem from="1583415268715" duration="15223000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1583326453396</created>
@@ -225,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583507885096</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add database of Days">
+      <created>1583508662103</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1583508662103</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,10 +270,10 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="414" y="217" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1583283255967" />
-    <state x="581" y="157" key="CommitChangelistDialog2" timestamp="1583507880164">
+    <state x="581" y="157" key="CommitChangelistDialog2" timestamp="1583510074825">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="581" y="157" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1583507880164" />
+    <state x="581" y="157" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1583510074825" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1583293794890">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
