@@ -88,7 +88,7 @@ api('messages.getConversationMembers', {
                 console.log('Нет ДР сегодня')
             }
 
-            //await addDayDB(dateStr);
+            await addDayDB(dateStr);
         }
         else {
             console.log('Heroku, иди нахуй, сегодня уже поздравляли!')
