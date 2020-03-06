@@ -11,8 +11,7 @@ module.exports = async (dateStr) => {
     }
     await pool.end();
 
-    console.log('Res CheckDaysDB', res.rowCount);
-
+    console.log('Результат CheckDaysDB', res.rowCount);
 
     return res.rowCount === 0;
 };

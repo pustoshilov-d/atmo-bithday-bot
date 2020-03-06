@@ -11,7 +11,6 @@ const {TOKEN, GROUP, CHAT, CHAT_TEST, PHOTO, TEST_FLAG} = require('./config');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
-console.log('Hello');
 const messages = [', с твоим Днём! Пусть этот день станет для тебя самым счастливым в году. Желаем эффективного саморазвития и поиска себя!'];
 
 const keyboard = JSON.stringify({
@@ -29,6 +28,8 @@ const keyboard = JSON.stringify({
         }],
     ]});
 
+console.log('Привет')
+
 api('messages.getConversationMembers', {
     v:5.103,
     access_token: TOKEN,
@@ -41,13 +42,13 @@ api('messages.getConversationMembers', {
     api('utils.getServerTime', {
         v:5.103,
         access_token: TOKEN,
-    }).then(res => {
+    }).then(async res => {
         // console.log(res.response);
         let date = new Date(res.response * 1000);
         let dateStr =  (date.getDay()+1).toString() + '.' + (date.getMonth()+1).toString() + '.' + (date.getFullYear()).toString();
         console.log('Сегодня ', dateStr);
 
-        if (checkDaysDB(dateStr)) {
+        if (await checkDaysDB(dateStr)) {
             console.log('Сегодня ещё не поздравляли');
 
             if (TEST_FLAG === '1') {
@@ -87,7 +88,7 @@ api('messages.getConversationMembers', {
                 console.log('Нет ДР сегодня')
             }
 
-            // addDayDB(dateStr);
+            //await addDayDB(dateStr);
         }
         else {
             console.log('Heroku, иди нахуй, сегодня уже поздравляли!')
