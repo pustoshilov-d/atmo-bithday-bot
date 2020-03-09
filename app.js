@@ -60,24 +60,25 @@ api('messages.getConversationMembers', {
 
         if (server_time >= TIME) {
             console.log('Сейчас: ', server_time, ' часов. Пора поздравлять');
+
+            if (TEST_FLAG === '1') {
+                Users[0].bdate = (date.getDay() + 1).toString() + '.' + (date.getMonth() + 1).toString();
+                console.log('Test: ', Users[0].bdate)
+            }
+
+            let users_with_bday = [];
+            Users.forEach(user => {
+                if (user.bdate !== undefined) {
+                    if (date.getDay() + 1 === parseInt(user.bdate.split('.')[0]) && date.getMonth() + 1 === parseInt(user.bdate.split('.')[1])) {
+                        users_with_bday.push('@id' + user.id + '(' + user.first_name + ')');
+                    }
+                }
+            });
+
+            console.log('Сегодня ДР у: ', users_with_bday);
+
             if (await checkDaysDB(dateStr)) {
                 console.log('Сегодня ещё не поздравляли');
-
-                if (TEST_FLAG === '1') {
-                    Users[0].bdate = (date.getDay() + 1).toString() + '.' + (date.getMonth() + 1).toString();
-                    console.log('Test: ', Users[0].bdate)
-                }
-
-                let users_with_bday = [];
-                Users.forEach(user => {
-                    if (user.bdate !== undefined) {
-                        if (date.getDay() + 1 === parseInt(user.bdate.split('.')[0]) && date.getMonth() + 1 === parseInt(user.bdate.split('.')[1])) {
-                            users_with_bday.push('@id' + user.id + '(' + user.first_name + ')');
-                        }
-                    }
-                });
-                console.log(users_with_bday);
-
                 if (users_with_bday.length > 0) {
                     let text = users_with_bday.join(', ').replace(/,\s([^,]+)$/, ' и $1');
                     text += messages[Math.floor((Math.random() * messages.length))];
