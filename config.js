@@ -6,6 +6,7 @@ module.exports = {
     PHOTO:process.env.PHOTO,
     TIME_OUT:process.env.TIME_OUT,
     TEST_FLAG:process.env.TEST_FLAG,
+    TIME:process.env.TIME,
 
     HOST: process.env.HOST,
     PORT_DB: process.env.PORT_DB,

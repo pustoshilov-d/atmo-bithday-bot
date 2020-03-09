@@ -11,6 +11,8 @@
     "PHOTO": "photo-190214743_457239250",
     "TIME_OUT": 86400000,
     "TEST_FLAG": 12,
+    "TIME": 10,
+
     "USER": "oemizkugkcqsbw",
     "PORT_DB": 5432,
     "PASSWORD": "471f867354afdf6b118aa2ab615ee99352df979c33af159986d3339c4ad85bca",
