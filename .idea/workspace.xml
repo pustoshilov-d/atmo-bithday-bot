@@ -4,8 +4,6 @@
     <list default="true" id="d2d687e6-077c-4094-aaf8-14284839de65" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodemon.json" beforeDir="false" afterPath="$PROJECT_DIR$/nodemon.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +119,7 @@
       <workItem from="1583282646964" duration="11074000" />
       <workItem from="1583322055520" duration="5258000" />
       <workItem from="1583415268715" duration="20933000" />
-      <workItem from="1583762025596" duration="751000" />
+      <workItem from="1583762025596" duration="1009000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1583326453396</created>
@@ -270,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583515036546</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add TIME">
+      <created>1583762797275</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1583762797275</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,7 +306,8 @@
     <MESSAGE value="change congratulations" />
     <MESSAGE value="add database of Days" />
     <MESSAGE value="add new congratulations" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new congratulations" />
+    <MESSAGE value="add TIME" />
+    <option name="LAST_COMMIT_MESSAGE" value="add TIME" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="220" key="#Inspections" timestamp="1583284012819">
@@ -312,10 +318,10 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="414" y="217" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1583283255967" />
-    <state x="581" y="157" key="CommitChangelistDialog2" timestamp="1583515029409">
+    <state x="581" y="157" key="CommitChangelistDialog2" timestamp="1583762792360">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="581" y="157" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1583515029409" />
+    <state x="581" y="157" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1583762792360" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1583293794890">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>

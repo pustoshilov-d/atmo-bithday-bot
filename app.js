@@ -59,9 +59,8 @@ api('messages.getConversationMembers', {
         console.log('Сегодня ', dateStr);
 
         if (server_time >= TIME) {
-            console.log('Сейчас: ', server_time, ' часов. Пора поздравлять')
-            if (true) {
-                // await checkDaysDB(dateStr)
+            console.log('Сейчас: ', server_time, ' часов. Пора поздравлять');
+            if (await checkDaysDB(dateStr)) {
                 console.log('Сегодня ещё не поздравляли');
 
                 if (TEST_FLAG === '1') {
@@ -101,7 +100,7 @@ api('messages.getConversationMembers', {
                         v: 5.103,
                         access_token: TOKEN,
                         group_id: GROUP,
-                        peer_id: CHAT_TEST,
+                        peer_id: CHAT,
                         random_id: Math.floor(Math.random() * 999999999),
                         message: text,
                         keyboard: keyboard,
