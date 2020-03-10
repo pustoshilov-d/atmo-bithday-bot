@@ -54,7 +54,7 @@ api('messages.getConversationMembers', {
     }).then(async res => {
         // console.log(res.response);
         let date = new Date(res.response * 1000);
-        let dateStr =  (date.getDay()+1).toString() + '.' + (date.getMonth()+1).toString() + '.' + (date.getFullYear()).toString();
+        let dateStr =  (date.getDate()).toString() + '.' + (date.getMonth()+1).toString() + '.' + (date.getFullYear()).toString();
         let server_time = date.getHours()+3;
         console.log('Сегодня ', dateStr);
 
@@ -62,14 +62,14 @@ api('messages.getConversationMembers', {
             console.log('Сейчас: ', server_time, ' часов. Пора поздравлять');
 
             if (TEST_FLAG === '1') {
-                Users[0].bdate = (date.getDay() + 1).toString() + '.' + (date.getMonth() + 1).toString();
+                Users[0].bdate = (date.getDate()).toString() + '.' + (date.getMonth() + 1).toString();
                 console.log('Test: ', Users[0].bdate)
             }
 
             let users_with_bday = [];
             Users.forEach(user => {
                 if (user.bdate !== undefined) {
-                    if (date.getDay() + 1 === parseInt(user.bdate.split('.')[0]) && date.getMonth() + 1 === parseInt(user.bdate.split('.')[1])) {
+                    if (date.getDate() === parseInt(user.bdate.split('.')[0]) && date.getMonth() + 1 === parseInt(user.bdate.split('.')[1])) {
                         users_with_bday.push('@id' + user.id + '(' + user.first_name + ')');
                     }
                 }
