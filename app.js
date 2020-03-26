@@ -27,7 +27,7 @@ async function main() {
 
     const goCode = await goCongratulate(time.getHours()+3, dateStr);
 
-    if (goCode === 0 || TEST_FLAG) {
+    if (goCode === 0 || TEST_FLAG === '1') {
         console.log('Сайчас можно поздравлять');
 
         for (const curChat of  await getChats()) {

@@ -1,23 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2d687e6-077c-4094-aaf8-14284839de65" name="Default Changelist" comment="fixed getDate">
-      <change afterPath="$PROJECT_DIR$/app2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/getChats.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/getCong.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/getPeopleDB.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/getPeople.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/getServerTime.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goCongratulate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sendCong.js" afterDir="false" />
+    <list default="true" id="d2d687e6-077c-4094-aaf8-14284839de65" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/addDayDB.js" beforeDir="false" afterPath="$PROJECT_DIR$/db/addDayDB.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/checkDaysDB.js" beforeDir="false" afterPath="$PROJECT_DIR$/db/checkDaysDB.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/dbConnection.js" beforeDir="false" afterPath="$PROJECT_DIR$/db/dbConnection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodemon.json" beforeDir="false" afterPath="$PROJECT_DIR$/nodemon.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +72,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programing\Projects\atmo-bot\functions" />
+      <recent name="D:\Programing\Projects\atmo-bot" />
       <recent name="D:\Programing\Projects\atmo-bot\db" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -149,7 +136,7 @@
       <workItem from="1584421563804" duration="4371000" />
       <workItem from="1584895867440" duration="2412000" />
       <workItem from="1585048849590" duration="2623000" />
-      <workItem from="1585225443119" duration="29690000" />
+      <workItem from="1585225443119" duration="30292000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1583326453396</created>
@@ -326,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583829584559</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="ver 2 epta">
+      <created>1585263120610</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1585263120610</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,7 +364,8 @@
     <MESSAGE value="add TIME" />
     <MESSAGE value="Users before time" />
     <MESSAGE value="fixed getDate" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed getDate" />
+    <MESSAGE value="ver 2 epta" />
+    <option name="LAST_COMMIT_MESSAGE" value="ver 2 epta" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="220" key="#Inspections" timestamp="1583284012819">
@@ -389,10 +384,10 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="690" y="306" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1585257595189" />
-    <state x="581" y="157" key="CommitChangelistDialog2" timestamp="1585262957826">
+    <state x="581" y="157" key="CommitChangelistDialog2" timestamp="1585263119357">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="581" y="157" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1585262957825" />
+    <state x="581" y="157" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1585263119357" />
     <state width="1860" height="344" key="GridCell.Tab.0.bottom" timestamp="1585257250246">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
@@ -478,13 +473,13 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/goCongratulate.js</url>
+          <url>file://$PROJECT_DIR$/functions/goCongratulate.js</url>
           <line>9</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/goCongratulate.js</url>
+          <url>file://$PROJECT_DIR$/functions/goCongratulate.js</url>
           <line>8</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="8" />
