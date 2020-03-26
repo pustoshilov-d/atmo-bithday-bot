@@ -3,14 +3,13 @@
   "env": {
     "NODE_ENV":"development",
 
-    "GROUP": 190214743,
-    "TOKEN_ATMO": "d8937fc9804c7bc900bdf1726fc803f97095365ce5d67aaf3104dc35f68f60c0aadd37349e64df69cd8dd",
-    "TOKEN": "281583ef79ec6c7d45a116da998a813a6ec83f8e75913b87d93956fdc9b5fc536b4443cf703f853f5cda6",
-    "CHAT": 2000000002,
-    "CHAT_TEST": 2000000003,
-    "PHOTO": "photo-190214743_457239250",
-    "TIME_OUT": 86400000,
-    "TEST_FLAG": 12,
+    "TEST_GROUP": 23513715,
+    "TEST_TOKEN": "1c4c2392aa11a7eebeaa6d5f6089051c0487ad82b1f2125e27c26efddd3b8aa87199f490f6da4386555c3",
+    "TEST_CHAT": 2000000002,
+    "TEST_PHOTO": "photo-193434186_457239018",
+    "TEST_FLAG": 1,
+
+    "EXTERNAL_DB_FLAG": true,
     "TIME": 10,
 
     "USER": "oemizkugkcqsbw",
@@ -19,7 +18,6 @@
     "HOST": "ec2-176-34-97-213.eu-west-1.compute.amazonaws.com",
     "DATABASE_URL": "postgres://oemizkugkcqsbw:471f867354afdf6b118aa2ab615ee99352df979c33af159986d3339c4ad85bca@ec2-176-34-97-213.eu-west-1.compute.amazonaws.com:5432/d26t2bp4qg6nvm",
     "DATABASE": "d26t2bp4qg6nvm"
-
 
   },
   "ext": ".js,.json",

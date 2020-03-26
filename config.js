@@ -1,16 +1,17 @@
 module.exports = {
-    TOKEN: process.env.TOKEN,
-    GROUP: process.env.GROUP,
-    CHAT: process.env.CHAT,
-    CHAT_TEST:process.env.CHAT_TEST,
-    PHOTO:process.env.PHOTO,
-    TIME_OUT:process.env.TIME_OUT,
+    TEST_TOKEN: process.env.TEST_TOKEN,
+    TEST_GROUP: process.env.TEST_GROUP,
+    TEST_CHAT: process.env.TEST_CHAT,
+    TEST_PHOTO:process.env.TEST_PHOTO,
     TEST_FLAG:process.env.TEST_FLAG,
+
     TIME:process.env.TIME,
+    EXTERNAL_DB_FLAG:process.env.EXTERNAL_DB_FLAG,
 
     HOST: process.env.HOST,
     PORT_DB: process.env.PORT_DB,
     DATABASE: process.env.DATABASE,
     USER: process.env.USER,
     PASSWORD: process.env.PASSWORD,
+    DATABASE_URL: process.env.DATABASE_URL,
 };
