@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d2d687e6-077c-4094-aaf8-14284839de65" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/sendCong.js" beforeDir="false" afterPath="$PROJECT_DIR$/functions/sendCong.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodemon.json" beforeDir="false" afterPath="$PROJECT_DIR$/nodemon.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +139,7 @@
       <workItem from="1584421563804" duration="4371000" />
       <workItem from="1584895867440" duration="2412000" />
       <workItem from="1585048849590" duration="2623000" />
-      <workItem from="1585225443119" duration="30292000" />
+      <workItem from="1585225443119" duration="30599000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1583326453396</created>
@@ -320,7 +323,21 @@
       <option name="project" value="LOCAL" />
       <updated>1585263120610</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="ver 2 epta">
+      <created>1585263607483</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1585263607483</updated>
+    </task>
+    <task id="LOCAL-00028" summary="ver 2 epta">
+      <created>1585263720781</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1585263720781</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -384,10 +401,10 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="690" y="306" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1585257595189" />
-    <state x="581" y="157" key="CommitChangelistDialog2" timestamp="1585263605957">
+    <state x="581" y="157" key="CommitChangelistDialog2" timestamp="1585263719983">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="581" y="157" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1585263605957" />
+    <state x="581" y="157" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1585263719983" />
     <state width="1860" height="344" key="GridCell.Tab.0.bottom" timestamp="1585257250246">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>

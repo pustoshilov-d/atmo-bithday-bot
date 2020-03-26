@@ -7,7 +7,7 @@
     "TEST_TOKEN": "1c4c2392aa11a7eebeaa6d5f6089051c0487ad82b1f2125e27c26efddd3b8aa87199f490f6da4386555c3",
     "TEST_CHAT": 2000000002,
     "TEST_PHOTO": "photo-193434186_457239018",
-    "TEST_FLAG": true,
+    "TEST_FLAG": false,
 
     "EXTERNAL_DB_FLAG": true,
     "TIME": 10,

@@ -3,7 +3,7 @@ const {TEST_TOKEN, TEST_GROUP, TEST_CHAT, TEST_PHOTO, TEST_FLAG} = require('../c
 
 module.exports = async (chat, text) => {
     try{
-        if (TEST_FLAG)  {
+        if (TEST_FLAG === 'true')  {
 
             const res = await api('messages.send', {
                 v: 5.103,
