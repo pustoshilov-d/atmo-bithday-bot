@@ -15,7 +15,7 @@ const sendCong = require('./functions/sendCong.js');
 
 const {TEST_FLAG} = require('./config');
 
-console.log('Hello');
+console.log('Hello', TEST_FLAG == true);
 main();
 
 
@@ -27,7 +27,7 @@ async function main() {
 
     const goCode = await goCongratulate(time.getHours()+3, dateStr);
 
-    if (goCode === 0 || TEST_FLAG === '1') {
+    if (goCode === 0 || TEST_FLAG) {
         console.log('Сайчас можно поздравлять');
 
         for (const curChat of  await getChats()) {
