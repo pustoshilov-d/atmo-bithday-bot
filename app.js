@@ -15,8 +15,10 @@ const sendCong = require('./functions/sendCong.js');
 
 const {TEST_FLAG} = require('./config');
 
-console.log('Hello', TEST_FLAG === 'true');
+console.log('Hello');
+console.log('Test mode', TEST_FLAG === 'true')
 main();
+console.log('heroku logs -n 1500')
 
 
 async function main() {
