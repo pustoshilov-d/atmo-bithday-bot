@@ -13,36 +13,34 @@ const getPeople = require('./functions/getPeople.js');
 const getCong = require('./db/getCong.js');
 const sendCong = require('./functions/sendCong.js');
 
-const {TEST_FLAG} = require('./config');
+const {TEST_FLAG, TEST_DATE} = require('./config');
 
 console.log('Hello');
-console.log('Test mode', TEST_FLAG === 'true')
+console.log('Test mode', TEST_FLAG === 'true');
 main();
-console.log('heroku logs -n 1500')
+console.log('heroku logs -n 1500');
 
 
 async function main() {
     const time = await getServerTime();
 
     console.log('\nСейчас ', time);
-    const dateStr =  (time.getDate()).toString() + '.' + (time.getMonth()+1).toString() + '.' + (time.getFullYear()).toString();
+    const fullDateStr =  (time.getDate()).toString() + '.' + (time.getMonth()+1).toString() + '.' + (time.getFullYear()).toString();
+    let dateStr = (time.getDate()).toString() + '.' + (time.getMonth()+1).toString().toString();
+    if (TEST_FLAG === 'true' && TEST_DATE !== "") {dateStr = TEST_DATE}
 
-    const goCode = await goCongratulate(time.getHours()+3, dateStr);
+    const goCode = await goCongratulate(time.getHours()+3, fullDateStr);
 
     if (goCode === 0 || TEST_FLAG === 'true') {
         console.log('Сайчас можно поздравлять');
 
         for (const curChat of  await getChats()) {
-            // console.log(curChat);
 
             console.log('\nРаботаем с: ', curChat.organization);
 
-            const dateStr = (time.getDate()).toString() + '.' + (time.getMonth()+1).toString().toString();
             const people = await getPeople(dateStr, curChat);
 
-            if (people.size === 0) {
-                console.log('Сегодня нет ДР(');
-            }
+            if (people.size === 0) console.log('Сегодня нет ДР(');
             else {
                 console.log("ДР у: ", people.values());
 
@@ -60,8 +58,8 @@ async function main() {
                 await sendCong(curChat,text);
             }
         }
-        await addDayDB(dateStr);
+        if (TEST_FLAG !== 'true') {await addDayDB(fullDateStr)}
     }
     else if (goCode === 2) {console.log('Уже поздравляли')}
-    else (console.log('Ещё не время для поздравлений'))
+    else {(console.log('Ещё не время для поздравлений'))}
 }
