@@ -27,7 +27,7 @@ module.exports = async (date, chat) => {
     }
     // console.log(people.values())
 
-    if (EXTERNAL_DB_FLAG && chat.external_db !== null){
+    if (EXTERNAL_DB_FLAG ==="true" && chat.external_db !== null){
         for (const user of await getPeopleDB(chat.external_db, date)){
             people.set(user.id_vk, [user.name, user.sex])
         }

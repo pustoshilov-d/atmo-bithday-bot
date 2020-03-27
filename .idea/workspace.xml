@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2d687e6-077c-4094-aaf8-14284839de65" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/goCongratulate.js" beforeDir="false" afterPath="$PROJECT_DIR$/functions/goCongratulate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodemon.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/getPeople.js" beforeDir="false" afterPath="$PROJECT_DIR$/functions/getPeople.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +138,7 @@
       <workItem from="1584895867440" duration="2412000" />
       <workItem from="1585048849590" duration="2623000" />
       <workItem from="1585225443119" duration="31006000" />
-      <workItem from="1585318832673" duration="2436000" />
+      <workItem from="1585318832673" duration="4649000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1583326453396</created>
@@ -346,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585263908794</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="gitignore and hours fix">
+      <created>1585326531744</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1585326531744</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -391,7 +395,8 @@
     <MESSAGE value="Users before time" />
     <MESSAGE value="fixed getDate" />
     <MESSAGE value="ver 2 epta" />
-    <option name="LAST_COMMIT_MESSAGE" value="ver 2 epta" />
+    <MESSAGE value="gitignore and hours fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore and hours fix" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="220" key="#Inspections" timestamp="1583284012819">
@@ -410,10 +415,10 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="690" y="306" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1585257595189" />
-    <state x="581" y="157" key="CommitChangelistDialog2" timestamp="1585263906716">
+    <state x="581" y="157" key="CommitChangelistDialog2" timestamp="1585333431147">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="581" y="157" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1585263906716" />
+    <state x="581" y="157" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1585333431147" />
     <state width="1860" height="344" key="GridCell.Tab.0.bottom" timestamp="1585264255312">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
