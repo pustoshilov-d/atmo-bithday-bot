@@ -8,6 +8,7 @@ module.exports = async (sex, db_name) => {
         const sql = `SELECT ${sex} FROM ${db_name} ORDER BY RANDOM() LIMIT 1`;
         let res = await pool.query(sql);
         console.log('Результат getCong', res.rowCount);
+        pool.end();
         return res.rows[0][sex];
     }
     catch (err) {

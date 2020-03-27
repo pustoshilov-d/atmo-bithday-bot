@@ -8,6 +8,7 @@ module.exports = async () => {
         const sql = `SELECT * FROM chats`;
         let res = await pool.query(sql);
         console.log('Результат getChats', res.rowCount);
+        pool.end();
         return res.rows;
     }
     catch (err) {

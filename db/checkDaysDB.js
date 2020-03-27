@@ -21,6 +21,7 @@ module.exports = async (dateStr) => {
         const sql = `SELECT * FROM days WHERE day = '${dateStr}'`;
         let res = await pool.query(sql);
         console.log('Результат CheckDaysDB', res.rowCount);
+        pool.end();
         return res.rowCount === 0;
     }
     catch (err) {

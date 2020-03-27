@@ -6,6 +6,7 @@ module.exports = async (dateStr) => {
         await pool.connect();
         const sql = `INSERT INTO days (day) VALUES ('${dateStr}')`;
         await pool.query(sql);
+        pool.end();
         console.log('\nДата добавлена')
     }
     catch (err) {

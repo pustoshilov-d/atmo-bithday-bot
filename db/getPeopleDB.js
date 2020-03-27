@@ -8,6 +8,7 @@ module.exports = async (db_name, date) => {
         const sql = `SELECT * FROM ${db_name} WHERE bday = '${date}'`;
         let res = await pool.query(sql);
         console.log('Результат getPeopleDB', res.rowCount);
+        pool.end();
         return res.rows;
     }
     catch (err) {
