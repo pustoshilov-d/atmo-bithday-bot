@@ -21,6 +21,7 @@
     "node-postgres": "^0.1.4",
     "nodemon": "^2.0.4",
     "pg": "^7.18.2",
+    "require.js": "^1.0.0",
     "vk-easy": "^1.4.1"
   },
   "engines": {
