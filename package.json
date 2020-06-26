@@ -14,12 +14,12 @@
   "dependencies": {
     "body-parser": "^1.19.0",
     "eslint": "^6.7.2",
-    "eslint-config-prettier": "^6.7.0",
-    "eslint-plugin-node": "^11.0.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-node": "^11.1.0",
     "express": "^4.17.1",
     "lodash": "^4.17.15",
     "node-postgres": "^0.1.4",
-    "nodemon": "^2.0.1",
+    "nodemon": "^2.0.4",
     "pg": "^7.18.2",
     "vk-easy": "^1.4.1"
   },
