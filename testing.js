@@ -17,17 +17,19 @@ async function main() {
             return console.log('Привет');
         }
 
-        setTimeout(sayHi, 1000);
 
-        function doHomework(subject, callback) {
-            console.log( 'Starting my ${subject} homework. ');
-            callback();
-        }
-        function alertFinished(){
-            console.log('Finished my homework');
-        }
-        doHomework('math', alertFinished);
+        var promise = new Promise((resolve, reject) => {
 
+            setTimeout(() => {
+                reject(new Error("время вышло!"));
+            }, 1000);
+
+        });
+        promise
+            .then(
+                result => console.log("Fulfilled: " + result),
+                error => console.log("Rejected: " + error.message) // Rejected: время вышло!
+            );
 
 
         pool.connect().then((res, err) => {
