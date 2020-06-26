@@ -14,10 +14,10 @@ async function main() {
         }
     })
 
-    console.log('sql2', pool);
+    pool.connect().then(res=>{
+        console.log("Результат коннект", res)
+    });
 
-    console.log(pool.connect());
-    console.log('sql2', pool);
     const sql = `SELECT * FROM days`;
     console.log(sql)
     pool.query(sql).then(res =>{

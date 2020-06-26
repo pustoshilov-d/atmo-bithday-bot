@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2d687e6-077c-4094-aaf8-14284839de65" name="Default Changelist" comment="add button for congr">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testing.js" beforeDir="false" afterPath="$PROJECT_DIR$/testing.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -149,7 +148,7 @@
       <workItem from="1586800977872" duration="194000" />
       <workItem from="1586877038769" duration="395000" />
       <workItem from="1586962784487" duration="5361000" />
-      <workItem from="1593193305120" duration="11970000" />
+      <workItem from="1593193305120" duration="12308000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1583326453396</created>
@@ -459,7 +458,21 @@
       <option name="project" value="LOCAL" />
       <updated>1593204982476</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="add button for congr">
+      <created>1593205428982</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1593205428982</updated>
+    </task>
+    <task id="LOCAL-00046" summary="add button for congr">
+      <created>1593205456080</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1593205456080</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
