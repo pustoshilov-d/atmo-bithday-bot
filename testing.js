@@ -14,14 +14,12 @@ async function main() {
         }
     })
 
-    pool.connect().then(res=>{
-        console.log("Результат коннект", res)
+    pool.connect().then((res, err)=>{
+        console.log("Результат коннект", res, err)
     });
 
-    const sql = `SELECT * FROM days`;
-    console.log(sql)
-    pool.query(sql).then(res =>{
-        console.log(res)
-    });
-
+    pool.query('SELECT $1::text as message', ['Hello world!'], (err, res) => {
+        console.log(err ? err.stack : res.rows[0].message) // Hello World!
+        pool.end()
+    })
 }
