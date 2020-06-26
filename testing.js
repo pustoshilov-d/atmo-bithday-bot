@@ -1,4 +1,4 @@
-const {DATABASE_URL} = require('../config.js');
+const {DATABASE_URL} = require('./config');
 const {Pool} = require('pg');
 
 main();
