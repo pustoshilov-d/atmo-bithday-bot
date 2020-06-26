@@ -19,15 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2d687e6-077c-4094-aaf8-14284839de65" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/db/getButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/getPeople.js" beforeDir="false" afterPath="$PROJECT_DIR$/functions/getPeople.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/sendCong.js" beforeDir="false" afterPath="$PROJECT_DIR$/functions/sendCong.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="d2d687e6-077c-4094-aaf8-14284839de65" name="Default Changelist" comment="add button for congr" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -153,7 +145,7 @@
       <workItem from="1586800977872" duration="194000" />
       <workItem from="1586877038769" duration="395000" />
       <workItem from="1586962784487" duration="5361000" />
-      <workItem from="1593193305120" duration="6644000" />
+      <workItem from="1593193305120" duration="7084000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1583326453396</created>
@@ -386,7 +378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585341786773</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="add button for congr">
+      <created>1593200125934</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1593200125934</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -433,7 +432,8 @@
     <MESSAGE value="gitignore and hours fix" />
     <MESSAGE value="pool.end add" />
     <MESSAGE value="add TEST_DATE" />
-    <option name="LAST_COMMIT_MESSAGE" value="add TEST_DATE" />
+    <MESSAGE value="add button for congr" />
+    <option name="LAST_COMMIT_MESSAGE" value="add button for congr" />
   </component>
   <component name="WindowStateProjectService">
     <state x="640" y="298" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1585051387727">

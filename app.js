@@ -31,6 +31,7 @@ async function main() {
     if (TEST_FLAG === 'true' && TEST_DATE !== "") {dateStr = TEST_DATE}
 
     const goCode = await goCongratulate(time.getHours()+3, fullDateStr);
+    console.log("goCode: ", goCode);
 
     if (goCode === 0 || TEST_FLAG === 'true') {
         console.log('Сайчас можно поздравлять');
