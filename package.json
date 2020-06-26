@@ -2,11 +2,11 @@
   "name": "atmo-bot",
   "version": "1.0.1",
   "description": "",
-  "main": "testing.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node testing.js",
+    "start": "node app.js",
     "dev": "nodemon app.js",
-    "test": "nodemon testing.js"
+    "test": "nodemon test.js"
   },
   "keywords": [],
   "author": "",
