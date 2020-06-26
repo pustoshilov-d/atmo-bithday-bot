@@ -14,10 +14,20 @@ async function main() {
             }
         })
         function sayHi() {
-            alert('Привет');
+            return console.log('Привет');
         }
 
         setTimeout(sayHi, 1000);
+
+        function doHomework(subject, callback) {
+            console.log( 'Starting my ${subject} homework. ');
+            callback();
+        }
+        function alertFinished(){
+            console.log('Finished my homework');
+        }
+        doHomework('math', alertFinished);
+
 
 
         pool.connect().then((res, err) => {
