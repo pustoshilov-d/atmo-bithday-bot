@@ -16,7 +16,7 @@ async function main() {
 
     console.log('sql2', pool);
 
-    await pool.connect();
+    console.log(pool.connect());
     console.log('sql2', pool);
     const sql = `SELECT * FROM days`;
     console.log(sql)
