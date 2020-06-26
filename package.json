@@ -18,6 +18,7 @@
     "eslint-plugin-node": "^11.0.0",
     "express": "^4.17.1",
     "lodash": "^4.17.15",
+    "node-postgres": "^0.1.4",
     "nodemon": "^2.0.1",
     "pg": "^7.18.2",
     "vk-easy": "^1.4.1"

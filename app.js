@@ -12,11 +12,12 @@ const getChats = require('./db/getChats.js');
 const getPeople = require('./functions/getPeople.js');
 const getCong = require('./db/getCong.js');
 const sendCong = require('./functions/sendCong.js');
+const getButton = require('./db/getButton')
 
 const {TEST_FLAG, TEST_DATE} = require('./config');
 
 console.log('Hello');
-console.log('Test mode', TEST_FLAG === 'true');
+// console.log('Test mode', TEST_FLAG === 'true');
 main();
 console.log('heroku logs -n 1500');
 
@@ -53,9 +54,27 @@ async function main() {
                 text = text.slice(0, -2).replace(/,\s([^,]+)$/, ' и $1');
 
                 text += await getCong(sex, curChat.congr_pack);
-                console.log('Отправляем поздравление: ', text);
 
-                await sendCong(curChat,text);
+                let buttonNames = '';
+                for (const  [id_vk, value] of people) {
+                    buttonNames += '@' + value[2] + ', ';
+                }
+                buttonNames = buttonNames.slice(0, -2).replace(/,\s([^,]+)$/, ' и $1');
+                let buttonText = await getButton(sex, curChat.buttons_pack);
+                let button = ''
+
+                if ((buttonText + buttonNames + ' 🎉').length < 40) {
+                        button = buttonText + buttonNames + ' 🎉'
+                    }
+                else if (("Поздравляю " + buttonNames + ' 🎉').length < 40) {
+                    button = "Поздравляю " + buttonNames + ' 🎉'
+                }
+                else {
+                    button = buttonText + ' 🎉'
+                }
+
+                console.log('Отправляем поздравление: ', text, '/n', button);
+                await sendCong(curChat,text, button);
             }
         }
         if (TEST_FLAG !== 'true') {await addDayDB(fullDateStr)}

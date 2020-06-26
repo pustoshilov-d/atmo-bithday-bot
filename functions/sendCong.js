@@ -1,7 +1,24 @@
 const api = require('vk-easy');
 const {TEST_TOKEN, TEST_GROUP, TEST_CHAT, TEST_PHOTO, TEST_FLAG} = require('../config');
 
-module.exports = async (chat, text) => {
+
+
+module.exports = async (chat, text, buttonText) => {
+
+    let keyboard = JSON.stringify({
+        one_time: false,
+        inline: true,
+        buttons: [
+            [{
+                action: {
+                    type: "text",
+                    label: buttonText,
+                    payload: {command: "congr"}
+                },
+                "color": "positive"
+            }],
+        ]});
+
     try{
         if (TEST_FLAG === 'true')  {
 
@@ -12,7 +29,7 @@ module.exports = async (chat, text) => {
                 peer_id: TEST_CHAT,
                 random_id: Math.  floor(Math.random() * 999999999),
                 message: text,
-                // keyboard: keyboard,
+                keyboard: keyboard,
                 attachment: chat.photo,
             });
             console.log('Результат sendCong', res)
@@ -25,7 +42,7 @@ module.exports = async (chat, text) => {
                 peer_id: chat.chat_id_in_group,
                 random_id: Math.  floor(Math.random() * 999999999),
                 message: text,
-                // keyboard: keyboard,
+                keyboard: keyboard,
                 attachment: chat.photo,
             })
         }
