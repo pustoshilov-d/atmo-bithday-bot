@@ -15,6 +15,7 @@ let pool = new Client({
 pool.connect();
 
 pool.query('SELECT $1::text as message', ['Hello world!'], (err, res) => {
+    console.log("coonnect")
     console.log(err ? err.stack : res.rows[0].message) // Hello World!
     pool.end()
 })
