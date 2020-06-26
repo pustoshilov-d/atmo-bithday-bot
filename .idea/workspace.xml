@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2d687e6-077c-4094-aaf8-14284839de65" name="Default Changelist" comment="add button for congr">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testing.js" beforeDir="false" afterPath="$PROJECT_DIR$/testing.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -148,35 +149,7 @@
       <workItem from="1586800977872" duration="194000" />
       <workItem from="1586877038769" duration="395000" />
       <workItem from="1586962784487" duration="5361000" />
-      <workItem from="1593193305120" duration="12626000" />
-    </task>
-    <task id="LOCAL-00001" summary="update">
-      <created>1583326453396</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1583326453396</updated>
-    </task>
-    <task id="LOCAL-00002" summary="update">
-      <created>1583444522816</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1583444522817</updated>
-    </task>
-    <task id="LOCAL-00003" summary="global timeout">
-      <created>1583447107054</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1583447107054</updated>
-    </task>
-    <task id="LOCAL-00004" summary="global timeout">
-      <created>1583447316060</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1583447316060</updated>
+      <workItem from="1593193305120" duration="14198000" />
     </task>
     <task id="LOCAL-00005" summary="global timeout">
       <created>1583447621328</created>
@@ -479,7 +452,49 @@
       <option name="project" value="LOCAL" />
       <updated>1593205631865</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="add button for congr">
+      <created>1593205948393</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1593205948393</updated>
+    </task>
+    <task id="LOCAL-00049" summary="add button for congr">
+      <created>1593205979118</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1593205979118</updated>
+    </task>
+    <task id="LOCAL-00050" summary="add button for congr">
+      <created>1593206318334</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1593206318336</updated>
+    </task>
+    <task id="LOCAL-00051" summary="add button for congr">
+      <created>1593206878414</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1593206878414</updated>
+    </task>
+    <task id="LOCAL-00052" summary="add button for congr">
+      <created>1593207019482</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1593207019482</updated>
+    </task>
+    <task id="LOCAL-00053" summary="add button for congr">
+      <created>1593207212787</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1593207212787</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

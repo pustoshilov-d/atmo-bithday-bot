@@ -1,28 +1,22 @@
 const {DATABASE_URL} = require('./config');
-const {Pool} = require('pg');
-
-main();
-
-async function main() {
-    try {
-        console.log('sql');
-        let pool = new Pool({
-            connectionString: DATABASE_URL,
-            ssl: {
-                rejectUnauthorized: false
-            }
-        })
+const {Pool, Client} = require('pg');
 
 
 
-        pool.connect()
-
-        pool.query('SELECT $1::text as message', ['Hello world!'], (err, res) => {
-            console.log(err ? err.stack : res.rows[0].message) // Hello World!
-            pool.end()
-        })
+console.log('sql', DATABASE_URL);
+let pool = new Client({
+    connectionString: DATABASE_URL,
+    ssl: {
+        sslmode: 'require',
+        rejectUnauthorized: false
     }
-    catch (e) {
-        console.log(e)
-    }
-}
+})
+
+
+
+pool.connect();
+
+pool.query('SELECT $1::text as message', ['Hello world!'], (err, res) => {
+    console.log(err ? err.stack : res.rows[0].message) // Hello World!
+    pool.end()
+})
