@@ -4,8 +4,6 @@ const checkDaysDB = require('../db/checkDaysDB');
 module.exports = async (hour, dateStr) =>{
     try{
         console.log('Текущий час',hour);
-        console.log(TIME);
-        console.log(await checkDaysDB(dateStr))
         let result;
         if (hour < TIME) {result = 1}
         else if(await checkDaysDB(dateStr)){result = 0}
