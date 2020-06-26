@@ -4,12 +4,9 @@ const checkDaysDB = require('../db/checkDaysDB');
 module.exports = async (hour, dateStr) =>{
     try{
         console.log('Текущий час',hour);
-        let result;
-        if (hour < TIME) {result = 1}
-        else if(await checkDaysDB(dateStr)){result = 0}
-        else {result = 2}
-        console.log(result)
-        return result
+        if (hour < TIME) {return 1}
+        else if(await checkDaysDB(dateStr)){return 0}
+        else {return 2}
     }
     catch (e) {
         console.log("Ошибка в goCong", e)
