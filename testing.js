@@ -20,6 +20,8 @@ async function main() {
     console.log('sql2', pool);
     const sql = `SELECT * FROM days`;
     console.log(sql)
-    let res = pool.query(sql);
-    console.log('Результат CheckDaysDB', res)
+    pool.query(sql).then(res =>{
+        console.log(res)
+    });
+
 }
