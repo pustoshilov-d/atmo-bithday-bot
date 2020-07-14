@@ -42,7 +42,7 @@ module.exports = async (chat, text, buttonText) => {
                 peer_id: chat.chat_id_in_group,
                 random_id: Math.  floor(Math.random() * 999999999),
                 message: text,
-                keyboard: keyboard,
+                // keyboard: keyboard,
                 attachment: chat.photo,
             })
         }
