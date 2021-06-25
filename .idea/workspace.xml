@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2d687e6-077c-4094-aaf8-14284839de65" name="Default Changelist" comment="add button for congr">
+    <list default="true" id="d2d687e6-077c-4094-aaf8-14284839de65" name="Default Changelist" comment="lock cong button">
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,14 +72,17 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.17.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.19.1" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../decision_town_bot2" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="ts.external.directory.path" value="D:\Programing\WebStorm 2019.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -115,6 +120,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -150,13 +156,10 @@
       <workItem from="1586962784487" duration="5361000" />
       <workItem from="1593193305120" duration="17418000" />
       <workItem from="1594213816957" duration="42000" />
-    </task>
-    <task id="LOCAL-00016" summary="add database of Days">
-      <created>1583508662103</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1583508662103</updated>
+      <workItem from="1594735281276" duration="227000" />
+      <workItem from="1596445150684" duration="28000" />
+      <workItem from="1603129504959" duration="39000" />
+      <workItem from="1603390967623" duration="4518000" />
     </task>
     <task id="LOCAL-00017" summary="add database of Days">
       <created>1583510091573</created>
@@ -494,11 +497,18 @@
       <option name="project" value="LOCAL" />
       <updated>1593210373800</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="lock cong button">
+      <created>1594735354574</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1594735354574</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -542,7 +552,8 @@
     <MESSAGE value="pool.end add" />
     <MESSAGE value="add TEST_DATE" />
     <MESSAGE value="add button for congr" />
-    <option name="LAST_COMMIT_MESSAGE" value="add button for congr" />
+    <MESSAGE value="lock cong button" />
+    <option name="LAST_COMMIT_MESSAGE" value="lock cong button" />
   </component>
   <component name="WindowStateProjectService">
     <state x="668" y="217" key="#t.js" timestamp="1593196443560">
